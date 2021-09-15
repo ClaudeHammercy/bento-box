@@ -1,17 +1,6 @@
-#Grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "Fish-flag Fish-flag Fish-flag Vase-short"
-        "Map Map Map Vase-short"
-        "Vase-tall Bamboo Bamboo Bamboo"
-        "Vase-tall Bamboo Bamboo Bamboo"
-        "Vase-tall Quadropus Quadropus Quadropus";
-
-}
 #Bamboo {
     grid-area: Bamboo;
+    
 }
 
 #Fish-flag {
@@ -28,4 +17,17 @@
 }
 #Vase-tall {
     grid-area: Vase-tall;
+    ;
+}
+#Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "Fish-flag Fish-flag Fish-flag Vase-short"
+        "Map Map Map Vase-short"
+        "Vase-tall Bamboo Bamboo Bamboo"
+        "Vase-tall Bamboo Bamboo Bamboo"
+        "Vase-tall Quadropus Quadropus Quadropus";
+
 }
